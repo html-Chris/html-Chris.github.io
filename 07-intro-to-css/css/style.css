@@ -6,6 +6,19 @@ p {
     background-color:black;
     color:white
 }
-section #p1 {
-    color: pink
+span {
+    font-weight: bold;
+}
+#s1 {
+    color: orange;
+}
+#s2 {
+    color: aquamarine;
+}
+#s3 {
+    color: blue;
+}
+#s4 {
+    background-color:chartreuse;
+    color: black
 }
