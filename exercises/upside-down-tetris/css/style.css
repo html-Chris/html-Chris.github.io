@@ -1,0 +1,21 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: sienna;
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.black {
+    background-color: black;
+}
+.transparent {
+    background-color: transparent;
+}
+.off-white {
+    background-color: antiquewhite;
+}
