@@ -1,30 +1,30 @@
 .color-palette {
-box-shadow: 6px 6px 12px #989898;
-text-align: center;
-margin: 24px; 
-padding: 24px; 
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24px; 
+    padding: 24px; 
 }
 .color {
     margin: 0px;
     padding: 24px;
 }
 #p1-c1 {
-background-color: #F6AA1C;
+    background-color: #F6AA1C;
 }
 #p1-c2 {
-background-color: #BC3908;
+    background-color: #BC3908;
 }
 #p1-c3 {
-background-color: #941B0C;
+    background-color: #941B0C;
 }
 #p2-c1 {
-background-color: #3772FF;
+    background-color: #3772FF;
 }
 #p2-c2 {
-background-color: #DF2935;
+    background-color: #DF2935;
 }
 #p2-c3 {
-background-color: #FDCA40;
+    background-color: #FDCA40;
 }
 #p3-c1 {
     background-color: #5C415D;
