@@ -1,0 +1,48 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: transparent;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+.note {
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100px;
+    height: 115px;
+    font-family: cursive;
+    margin: 24px; 
+    padding: 10px;
+    vertical-align: top;
+}
+.h3 {
+    background-color: chartreuse;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    margin: 20px; 
+    padding: 15px;
+    vertical-align: top;
+}
+.list {
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    margin: 1px; 
+    padding: 1px;
+    vertical-align: top;
+}
