@@ -1,0 +1,30 @@
+.b1 {
+    width: 200px;
+    padding: 0%;
+    border: 10px outset #523F38;
+    margin: 25px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px
+}
+.c1 {
+    width: 200px;
+    padding: 0px;
+    border: 10px outset #523F38;
+    margin: 25px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    border-radius: 50%;
+}
+.b2 {
+    width: 90px;
+    padding: 2%;
+    border: 10px outset #523F38;
+    margin: 25px;
+    display: inline-block;
+    background-color: white;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px
+}
