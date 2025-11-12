@@ -1,0 +1,17 @@
+div {
+    border: 2px solid firebrick;
+    margin: 25px 60px 120px 0px;
+    background-color: lavenderblush;
+}
+a {
+    text-decoration: none;
+    color: lavenderblush;
+    font-weight: bold; 
+    background-color: firebrick;
+    padding: 25px;
+} 
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
