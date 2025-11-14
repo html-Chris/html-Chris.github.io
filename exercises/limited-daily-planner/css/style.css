@@ -1,0 +1,56 @@
+#morning {
+    border: 24px solid #595147;
+    background-color: blanchedalmond;
+    margin: 24px 24px 24px;
+    padding: 24px 24px 24px;
+    border-radius: 25%;
+}
+#afternoon {
+    border: 24px solid #595147;
+    background-color: #FFB559;
+    margin: 24px 24px 24px;
+    padding: 24px 24px 24px;
+    border-radius: 25%;
+}
+#evening {
+    border: 24px solid #595147;
+    background-color: teal;
+    margin: 24px 24px 24px;
+    padding: 24px 24px 24px;
+    border-radius: 25%;
+}
+.completed {
+    text-decoration: line-through;
+}
+.important {
+    font-weight: bold;
+    color: red;
+}
+.button {
+    color: black;
+    border: 3px solid greenyellow;
+    background-color: greenyellow;
+    padding: 1px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    left: 200px;
+}
+.pressed {
+    color: black;
+    border: 3px solid grey;
+    background-color: grey;
+    padding: 1px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    left: 200px;        
+}
