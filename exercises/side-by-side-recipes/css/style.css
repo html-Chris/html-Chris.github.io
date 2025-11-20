@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+.single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.recipe-intro {
+    display: flex;
+}
+.imgc, 
+.content {
+    margin: 0px 10px;
+}
+p {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    background-color: black;
+    padding: 12px;
+    font-size: 12px;
+}
+.h6-1 {
+    display: flex;
+    gap: 50px;
+}
+.h6-2 {
+    display: flex;
+    gap: 50px;
+}
+.h1 {
+    text-align: center;
+}
+.c1 {
+    font-weight: lighter;
+}
+.card-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0px;
+    flex: 1;
+}
+.is {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
