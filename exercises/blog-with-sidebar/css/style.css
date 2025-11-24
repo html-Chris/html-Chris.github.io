@@ -48,6 +48,7 @@ header {
 header #top-lvl {
     background: linear-gradient(to bottom, lightblue, 	#509c87, #6c8d71);
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
