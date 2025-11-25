@@ -42,7 +42,7 @@ a {
     font-weight: bold;
 }
 header {
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 header #top-lvl {
