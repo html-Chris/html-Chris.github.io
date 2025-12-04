@@ -95,7 +95,7 @@ nav a {
     padding: 40px 20px;
     background: #f4f4f4;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .card h2 {
     margin: 0 0 20px 0;
@@ -119,11 +119,11 @@ nav a {
     }
     .hero-content h1 {
         font-size: 30px;
-}
+    }
     .hero-content h3 {
         font-size: 12px;
-}
+    }
     .masonry-gallery {
         columns: 1 auto;
-}
+    }
 }
