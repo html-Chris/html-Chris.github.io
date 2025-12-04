@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.masonry-gallery {
+    columns: 3 auto;
+}
+.masonry-gallery img {
+    width: 100%;
+    padding-bottom: 12px;
+}
+#hero {
+    background-image: url("../images/urban-hi-res-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.hero-content {
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr max-content;
+}
+.hero-content h1 {
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-size: 250px;
+    margin: 0;
+}
+.hero-content h3 {
+    color: white;
+    font-size: 35px;
+    margin: 0;
+}
+.hero-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+.btn:hover {
+    background-color: gainsboro;
+}
+.btn {
+    color: #222;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: end;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+#card-section {
+    max-width: 1000px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1;
+    padding: 40px 20px;
+    background: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card h2 {
+    margin: 0 0 20px 0;
+}
+.card-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.card-btn:hover {
+    background-color: #444;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+}
+    .hero-content h3 {
+        font-size: 12px;
+}
+    .masonry-gallery {
+        columns: 1 auto;
+}
+}
